@@ -3,6 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 scores = [3.0, 1.0, 0.2]
+# s = np.asarray(scores)
+# s = np.multiply(s, 10)    # multiplying increases the largest value prob
+# s = np.divide(s, 10)      # dividing makes the output probs about equal
+# scores = s.tolist()
 testScores = np.array([[1, 2, 3, 6],
                        [2, 4, 5, 6],
                        [3, 8, 7, 6]])
